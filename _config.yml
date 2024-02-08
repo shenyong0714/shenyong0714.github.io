@@ -18,7 +18,7 @@ site-keywords: Shenyong Ye, PKU, MIT, shenyong0714
 favicon-url: /assets/images/icon.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: /assets/images/meili.JPG
+heroimage: https://shenyong0714.github.io/assets/images/meili.JPG
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
