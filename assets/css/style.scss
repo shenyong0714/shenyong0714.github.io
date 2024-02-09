@@ -46,7 +46,7 @@ a.navbar-item.is-active {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 
     &::before {
-        filter: blur(0.05rem);
+        filter: blur(0.01rem);
         background-image: url({{site.heroimage}});
         background-position: center;
         background-repeat: no-repeat;
@@ -69,6 +69,22 @@ a.navbar-item.is-active {
 }
 
 #about {
+    .image {
+        max-width: 20vmax;
+        margin: auto;
+
+        img {
+            border: 0.25rem dotted black;
+        }
+    }
+
+    a {
+        min-width: 25vmax;
+        margin: 0.5rem;
+    }
+}
+
+#experience {
     .image {
         max-width: 20vmax;
         margin: auto;
